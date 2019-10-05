@@ -56,7 +56,6 @@ public class RigObjectForVR
                     selectedObjects[i].AddComponent<BoxCollider>();
                 selectedObjects[i].transform.SetParent(go.transform);
 
-                go.AddComponent<ObjectAudioHandler>();
                 go.AddComponent<Rigidbody>();
                 go.AddComponent<Interactable>();
                 Throwable throwable = go.AddComponent<Throwable>();
@@ -109,7 +108,6 @@ public class RigObjectForVR
                 }
                 selectedObjects[i].transform.SetParent(go.transform);
 
-                go.AddComponent<ObjectAudioHandler>();
                 go.AddComponent<Rigidbody>();
                 go.AddComponent<Interactable>();
                 Throwable throwable = go.AddComponent<Throwable>();
