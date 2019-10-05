@@ -11,3 +11,4 @@ Select either Box Collider or Convex Mesh Collider
 - Parents selected object to a new empty object
 - Adds a collider to child object
 - Adds Rigidbody, Interactable and Throwable scripts to parent
+- Sets Hand Attachment Flags
