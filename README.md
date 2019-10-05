@@ -7,7 +7,7 @@
 Right click on GameObject > Rig For VR
 Select either Box Collider or Convex Mesh Collider
 
-**-How it works-**
--Parents selected object to a new empty object
--Adds a collider to child object
--Adds Rigidbody, Interactable and Throwable scripts to parent
+**How it works**
+- Parents selected object to a new empty object
+- Adds a collider to child object
+- Adds Rigidbody, Interactable and Throwable scripts to parent
